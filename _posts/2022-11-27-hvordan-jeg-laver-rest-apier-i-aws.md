@@ -6,7 +6,6 @@ category: "hvordan-jeg"
 tags: ["REST API", "AWS", "LAMBDA", "JAVASCRIPT"]
 ---
 
-# Hvordan jeg laver REST API'er i AWS
 ## Indledning
 I lang tid brugte jeg node.js og express, som jeg hostede i en VPS (Vultr, Hostinger, Digitalocean, etc.), til at lave alle mine REST API'er.
 Det var faktisk på mange måder en rigtig god løsning - det var super nemt og billigt at få en server. Jeg brugte f.eks.
@@ -74,7 +73,7 @@ requestet, f.eks. "/users", event.headers, som er ...ja, de headers der bliver s
 den body der bliver sendt i f.eks. POST- og PUT-requests.
 
 Lambda forventer at denne funktion, handler(event), returnerer et objekt med en bestemt form. Der skal altid være en
-"statusCode" som er en HTTP-statuskode, f.eks. 200, 201, 301, 401, 500, etc. Dem kan du læse mere om ![her.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+"statusCode" som er en HTTP-statuskode, f.eks. 200, 201, 301, 401, 500, etc. Dem kan du læse mere om [her.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 Derudover skal der være en "body", som er selve det som API'et returnerer til klienten; det kan f.eks. være en liste over
 brugere eller lignende.
 
@@ -140,9 +139,9 @@ Lambda virker og til sidst, hvordan man uploader sin Lambda-funktion til AWS.
 
 Jeg håber, dette indlæg har hjulpet dig, eller i det mindste har været interessant.
 
-**Tak for at læse med!
+**Tak for at læse med!**
 
-- August Emmery**
+**\- August Emmery**
 
 
 

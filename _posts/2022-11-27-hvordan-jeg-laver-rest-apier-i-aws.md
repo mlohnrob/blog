@@ -18,6 +18,7 @@ Derfor valgte jeg at kigge på nogle cloud-løsninger. Som jeg skriver dette ind
 * Amazon AWS
 * Microsoft Azure
 * Google Cloud Platform
+
 Så valget stod mellem disse. Jeg tror egentlig, jeg kunne have valgt hvilken som helst af disse og ville have været glad
 for mit valg - så du behøver ikke at gå så meget op i, hvad du vælger.
 Jeg endte med at vælge Amazon AWS, fordi det er den ældste, mest modne platform med flest services.
@@ -142,13 +143,3 @@ Jeg håber, dette indlæg har hjulpet dig, eller i det mindste har været intere
 **Tak for at læse med!**
 
 **\- August Emmery**
-
-
-
-
-
-
-
-
-
-
